@@ -1,0 +1,29 @@
+@import 'https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap';a.auth-btn-directzd {
+    flex: 1;
+    border: 1px solid #69f;
+    text-align: center;
+    height: 30px;
+    border-radius: 5px;
+    line-height: 30px;
+    font-weight: 500;
+    margin-left: 5px
+}
+
+a.auth-btn-directzd:hover {
+    box-shadow: -2px 3px 0 0 #69f
+}
+
+a.auth-btn-directgl {
+    flex: 1;
+    border: 1px solid #3c3;
+    text-align: center;
+    height: 30px;
+    border-radius: 5px;
+    line-height: 30px;
+    font-weight: 500;
+    margin-left: 5px
+}
+
+a.auth-btn-directgl:hover {
+    box-shadow: -2px 3px 0 0 #3c3
+}

@@ -1,0 +1,95 @@
+.ZQDL {
+    color: OrangeRed;
+    text-shadow: 0 0 18px #7f00ff;
+    color: HotPink;
+    background-image: url(X/Fire.gif)
+}
+
+.GlodCC {
+    text-shadow: 0 0 18px #fc0;
+    color: #fc6;
+    background-image: url(X/LZ.gif)
+}
+
+.RedTT {
+    text-shadow: 0 0 18px #f33;
+    color: red;
+    background-image: url(X/LZ.gif)
+}
+
+.GreenYY {
+    text-shadow: 0 0 18px #6f6;
+    color: #3c3;
+    background-image: url(X/LZ.gif)
+}
+
+.BlueZZ {
+    text-shadow: 0 0 18px #6cf;
+    color: #39f;
+    background-image: url(X/LZ.gif)
+}
+
+.ColorEX {
+    background-image: -webkit-linear-gradient(left,#00f,#6ff 10%,#c0f 20%,#c0c 30%,#ccf 40%,#0ff 50%,#ccf 60%,#c0c 70%,#c0f 80%,#6ff 90%,#00f 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-background-size: 200% 100%;
+    -webkit-animation: masked-animation 4s linear infinite
+}
+
+.XK {
+    color: #61be09;
+    background-image: url(X/XK.gif);
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text
+}
+
+.SSR {
+    font-weight: 700;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: linear-gradient(90deg,rgb(255,167,69),rgb(254,134,159),rgb(239,122,200),rgb(160,131,237),rgb(67,174,255),rgb(160,131,237),rgb(239,122,200),rgb(254,134,159),rgb(255,167,69));
+    background-size: 200%;
+    animation: streamer 2s linear infinite
+}
+
+@keyframes streamer {
+    0% {
+        background-position: 0%
+    }
+
+    100% {
+        background-position: 200%
+    }
+}
+
+.SSR_H {
+    background-image: url(X/LZ.gif)
+}
+
+.BiaoTi {
+    font-size: 14px;
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #ff512f;
+    font-weight: 700;
+    text-shadow: 0 0 7px #ffd800;
+    background-image: linear-gradient(90deg,#ffd800 0%,#ff512f 100%,#fff);
+    animation: glow-animation 10s infinite linear;
+    color: pink;
+    box-sizing: border-box;
+    vertical-align: inherit
+}
+
+@keyframes glow-animation {
+    0% {
+        filter: hue-rotate(-360deg)
+    }
+
+    100% {
+        filter: hue-rotate(360deg)
+    }
+}
